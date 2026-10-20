@@ -1,7 +1,7 @@
 import clsx from "clsx"
 import { X } from "lucide-react"
 import type { InputHTMLAttributes } from "react"
-import { Controller, type FieldError, type FieldValues, type Path, type RegisterOptions, useFormContext } from "react-hook-form"
+import { Controller, type FieldError, type FieldValues, get, type Path, type RegisterOptions, useFormContext } from "react-hook-form"
 import { getTestId, type TestIdProps } from "@/utils/testIdUtils"
 import { SelectContent } from "../ui/select/partials/selectContent/selectContent"
 import { SelectControl } from "../ui/select/partials/selectControl/selectControl"
@@ -52,7 +52,8 @@ const SelectField = <T extends FieldValues>({
         formState: { errors }
     } = useFormContext<T>()
 
-    const error = errors[name] as FieldError | undefined
+    // Annidati come i valori: l'errore di "connection.port" sta in errors.connection.port, non in errors["connection.port"]
+    const error = get(errors, name) as FieldError | undefined
     const inputId = id || name
     const testId = getTestId({ dataTestId, id, name })
     const isRequired = props.required || !!rules?.required

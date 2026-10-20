@@ -4,7 +4,7 @@ import { DayPicker, getDefaultClassNames, type Locale } from "react-day-picker"
 import { cn } from "@/utils/styleUtils"
 import { getTestId, type TestIdProps } from "@/utils/testIdUtils"
 import "react-day-picker/dist/style.css"
-import { Controller, type FieldError, type FieldValues, type Path, type RegisterOptions, useFormContext } from "react-hook-form"
+import { Controller, type FieldError, type FieldValues, get, type Path, type RegisterOptions, useFormContext } from "react-hook-form"
 import { Label } from "@/components/ui/label"
 import { Button } from "../atoms/button/Button"
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover"
@@ -46,7 +46,8 @@ const CalendarField = <T extends FieldValues>({
         formState: { errors }
     } = useFormContext<T>()
 
-    const error = errors[name] as FieldError | undefined
+    // Annidati come i valori: l'errore di "connection.port" sta in errors.connection.port, non in errors["connection.port"]
+    const error = get(errors, name) as FieldError | undefined
     const inputId = id || name
     const errorId = `${inputId}-error`
     const descriptionId = `${inputId}-description`
