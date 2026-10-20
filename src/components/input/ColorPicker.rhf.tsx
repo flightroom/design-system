@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Controller, type FieldError, type FieldValues, type Path, type RegisterOptions, useFormContext } from "react-hook-form"
+import { Controller, type FieldError, type FieldValues, get, type Path, type RegisterOptions, useFormContext } from "react-hook-form"
 import { ColorPicker as ColorPickerComponent } from "react-pick-color"
 import { Button } from "@/components/atoms"
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog"
@@ -93,7 +93,8 @@ const ColorPicker = <T extends FieldValues>({
         formState: { errors }
     } = useFormContext<T>()
 
-    const error = errors[name] as FieldError | undefined
+    // Annidati come i valori: l'errore di "connection.port" sta in errors.connection.port, non in errors["connection.port"]
+    const error = get(errors, name) as FieldError | undefined
     const inputId = id || name
     const errorId = `${inputId}-error`
     const testId = getTestId({ dataTestId, id, name })

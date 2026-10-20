@@ -1,7 +1,7 @@
 import clsx from "clsx"
 import { Eye, EyeOff } from "lucide-react"
 import { useState } from "react"
-import { Controller, FieldError, FieldValues, Path, RegisterOptions, useFormContext } from "react-hook-form"
+import { Controller, FieldError, FieldValues, get, Path, RegisterOptions, useFormContext } from "react-hook-form"
 import { Input, InputProps } from "@/components/ui/input/input"
 import { Label } from "@/components/ui/label"
 import { getTestId } from "@/utils/testIdUtils"
@@ -46,7 +46,8 @@ const TextField = <T extends FieldValues>({
     } = useFormContext<T>()
     const [isValueVisible, setIsValueVisible] = useState(false)
 
-    const error = errors[name] as FieldError | undefined
+    // Annidati come i valori: l'errore di "connection.port" sta in errors.connection.port, non in errors["connection.port"]
+    const error = get(errors, name) as FieldError | undefined
     const inputId = id || name
     const errorId = `${inputId}-error`
     const descriptionId = `${inputId}-description`
