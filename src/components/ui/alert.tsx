@@ -8,7 +8,11 @@ const alertVariants = cva("relative w-full rounded-lg border-2 border-border p-4
     variants: {
         variant: {
             default: "bg-background text-foreground",
-            destructive: "border-destructive/50 text-destructive dark:border-destructive [&>svg]:text-destructive"
+            destructive: "border-destructive/50 text-destructive dark:border-destructive [&>svg]:text-destructive",
+            /** Esiti e avvisi: fondo tenue della palette, testo nella variante scura che regge il contrasto */
+            success: "border-success/40 bg-success-subtle text-success [&>svg]:text-success",
+            warning: "border-warning/40 bg-warning-subtle text-warning [&>svg]:text-warning",
+            info: "border-info/40 bg-info-subtle text-info [&>svg]:text-info"
         }
     },
     defaultVariants: {

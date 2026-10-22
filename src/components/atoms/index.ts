@@ -1,2 +1,6 @@
 export * from "./badge"
 export * from "./button"
+export * from "./colorSwatch"
+export * from "./copyButton"
+export * from "./iconTile"
+export * from "./meter"

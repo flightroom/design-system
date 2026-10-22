@@ -112,7 +112,8 @@ const Sidebar = React.forwardRef<HTMLDivElement, SidebarProps>(
 		w-[calc(100%-1rem)] p-4 sticky top-2 start-2 z-10 bg-sidebar h-fit flex flex-col transition-all duration-300 ease-in-out border-2 border-sidebar-border rounded-md
 	`
 
-        const sidebarStyle = `md:h-sidebar md:py-6 group ${!isCollapsed ? "md:w-64 md:px-3" : "md:w-20 md:px-2"}`
+        // Sticky a top-2: tolti 1rem resta dentro il viewport, col bordo inferiore visibile.
+        const sidebarStyle = `md:h-[calc(var(--spacing-sidebar)-1rem)] md:py-6 group ${!isCollapsed ? "md:w-64 md:px-3" : "md:w-20 md:px-2"}`
 
         const slotState: SidebarSlotState = { isCollapsed, isMobile }
 
@@ -121,11 +122,11 @@ const Sidebar = React.forwardRef<HTMLDivElement, SidebarProps>(
                 <div className={`flex items-center justify-between md:mb-12 ${isCollapsed ? "md:justify-center" : "md:justify-start"}`}>
                     <div className="flex items-center md:p-2 gap-3">
                         {logo ?? (
-                            <div className="h-8 w-8 rounded-sm bg-orchestrator-accent flex items-center justify-center text-white font-bold" aria-hidden="true">
-                                {!isCollapsed ? "MF" : "M"}
+                            <div className="h-8 w-8 rounded-sm bg-primary flex items-center justify-center text-primary-foreground font-bold" aria-hidden="true">
+                                {!isCollapsed ? "FR" : "F"}
                             </div>
                         )}
-                        {!isCollapsed && title && <span className="text-lg font-semibold text-orchestrator-secondary">{title}</span>}
+                        {!isCollapsed && title && <span className="text-lg font-semibold text-foreground">{title}</span>}
                     </div>
                     <Button
                         variant="ghost"
@@ -143,9 +144,10 @@ const Sidebar = React.forwardRef<HTMLDivElement, SidebarProps>(
 
                 {sidebarHeader}
 
-                <div id="sidebar_menu" className={`${isMenuVisible ? "flex" : "hidden"} flex-col flex-grow border-t border-divider overflow-auto md:flex md:border-0 pt-2 md:pt-0 mt-4 md:mt-0`}>
+                <div id="sidebar_menu" className={`${isMenuVisible ? "flex" : "hidden"} flex-col flex-grow min-h-0 border-t border-divider md:flex md:border-0 pt-2 md:pt-0 mt-4 md:mt-0`}>
+                    {/* Scorre solo la navigazione principale: blocco secondario e footer restano sempre in vista. */}
                     {mainNavItems && (
-                        <nav className="flex flex-col gap-1 flex-grow" aria-label={mainNavLabel}>
+                        <nav className="flex flex-col gap-1 flex-grow min-h-0 overflow-y-auto" aria-label={mainNavLabel}>
                             {mainNavItems.map(item => (
                                 <NavItem
                                     key={item.path ?? item.name}
@@ -166,7 +168,7 @@ const Sidebar = React.forwardRef<HTMLDivElement, SidebarProps>(
                     )}
 
                     {(secondaryContent || (secondaryNavItems && secondaryNavItems.length > 0)) && (
-                        <div className="flex flex-col gap-1 border-t border-divider py-2">
+                        <div className="flex flex-col gap-1 shrink-0 border-t border-divider py-2">
                             {renderSlot(secondaryContent, slotState)}
                             {secondaryNavItems && secondaryNavItems.length > 0 && (
                                 <nav className="flex flex-col gap-1" aria-label={secondaryNavLabel}>
@@ -187,7 +189,7 @@ const Sidebar = React.forwardRef<HTMLDivElement, SidebarProps>(
                         </div>
                     )}
 
-                    {footer && <div className="border-t border-divider pt-2">{renderSlot(footer, slotState)}</div>}
+                    {footer && <div className="shrink-0 border-t border-divider pt-2">{renderSlot(footer, slotState)}</div>}
                 </div>
 
                 <Button

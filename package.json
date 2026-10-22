@@ -1,7 +1,7 @@
 {
-    "name": "@mfe-orchestrator/design-system",
+    "name": "@flightroom/design-system",
     "version": "0.1.0",
-    "description": "Design System for MFE Orchestrator",
+    "description": "Design System for Flightroom",
     "license": "Apache-2.0",
     "type": "module",
     "packageManager": "pnpm@10.19.0",
@@ -31,7 +31,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mfe-orchestrator/design-system.git"
+        "url": "git+https://github.com/flightroom/design-system.git"
     },
     "scripts": {
         "build": "vite build",
