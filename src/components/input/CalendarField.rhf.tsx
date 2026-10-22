@@ -115,7 +115,7 @@ const CalendarField = <T extends FieldValues>({
                                 classNames={{
                                     day_button: cn(defaultClassNames.day_button, "rounded-md transition-colors hover:bg-accent hover:text-accent-foreground"),
                                     selected: cn(defaultClassNames.selected, "[&>button]:bg-primary [&>button]:text-primary-foreground [&>button]:hover:bg-primary-active [&>button]:font-medium"),
-                                    today: cn(defaultClassNames.today, "text-primary font-semibold"),
+                                    today: cn(defaultClassNames.today, "text-primary-strong font-semibold"),
                                     disabled: cn(defaultClassNames.disabled, "opacity-40")
                                 }}
                                 animate={true}

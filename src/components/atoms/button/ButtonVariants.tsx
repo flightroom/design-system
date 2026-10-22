@@ -68,16 +68,16 @@ export const ButtonVariants = cva(cn(baseStyle, focusStyle, disabledStyle, iconS
 				active:bg-accent-active
 				`,
             ghost: `
-				border-0 shadow-none text-primary
+				border-0 shadow-none text-primary-strong
 				hover:bg-primary/15
 				focus-visible:bg-primary/15
-				active:bg-primary/30 active:shadow-none active:text-primary-active
+				active:bg-primary/30 active:shadow-none active:text-primary-strong
 				disabled:bg-foreground/15 disabled:text-foreground/70
 				`,
             link: `
-				border-0 shadow-none text-primary underline underline-offset-4 
-				hover:text-primary/75
-				focus-visible:text-primary/75
+				border-0 shadow-none text-primary-strong underline underline-offset-4 
+				hover:text-primary-strong/75
+				focus-visible:text-primary-strong/75
 				active:ring-4 active:ring-ring active:ring-offset-2 active:shadow-none
 				`,
             "ghost-destructive": `

@@ -100,7 +100,7 @@ const SliderField = <T extends FieldValues>({
                                     htmlFor={inputId}
                                     // il valore è già annunciato dallo slider: evita il doppio annuncio
                                     aria-hidden="true"
-                                    className={clsx("text-xl font-semibold tabular-nums", error ? "text-destructive" : "text-primary")}
+                                    className={clsx("text-xl font-semibold tabular-nums", error ? "text-destructive" : "text-primary-strong")}
                                     data-testid={`${testId}-value`}
                                 >
                                     {format(value)}

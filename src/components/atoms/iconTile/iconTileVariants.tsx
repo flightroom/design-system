@@ -8,11 +8,14 @@ export const iconTileVariants = cva("flex items-center justify-center", {
             square: "rounded-md"
         },
         tone: {
-            primary: "bg-primary/15 text-primary",
+            primary: "bg-primary/15 text-primary-strong",
             // `--accent` in tema chiaro e' un violetto quasi bianco: il glifo va tinto con
             // `accent-foreground`, altrimenti sparisce sullo sfondo della card.
             accent: "bg-accent text-accent-foreground",
             destructive: "bg-destructive/15 text-destructive",
+            success: "bg-success-subtle text-success",
+            warning: "bg-warning-subtle text-warning",
+            info: "bg-info-subtle text-info",
             /** Icona smorzata, per i contenuti che non chiedono nessuna azione */
             muted: "bg-muted text-foreground-secondary"
         },

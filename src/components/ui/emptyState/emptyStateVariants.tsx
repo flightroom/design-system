@@ -35,9 +35,12 @@ export const emptyStateIconTileSize = {
 export const emptyStateBareIconVariants = cva("", {
     variants: {
         tone: {
-            primary: "text-primary",
+            primary: "text-primary-strong",
             accent: "text-accent-foreground",
             destructive: "text-destructive",
+            success: "text-success",
+            warning: "text-warning",
+            info: "text-info",
             muted: "text-foreground-secondary"
         },
         size: {

@@ -114,7 +114,7 @@ const TextareaChipsField = <T extends FieldValues>({
                             {chips.length > 0 && (
                                 <ul className="flex flex-wrap gap-2 mb-2 list-none p-0" aria-label={label}>
                                     {chips.map((chip, index) => (
-                                        <li key={chip} className="inline-flex items-center gap-1 px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">
+                                        <li key={chip} className="inline-flex items-center gap-1 px-2 py-1 bg-primary/10 text-primary-strong rounded-md text-sm">
                                             <span>{chip}</span>
                                             <button
                                                 type="button"
