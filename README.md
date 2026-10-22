@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/assets/logo.png" alt="Flightroom" width="96"></p>
+
 # @flightroom/design-system
 
 Design System for Flightroom. Libreria React di componenti UI estratti dal frontend di [Flightroom](https://github.com/flightroom/flightroom), basata su Radix UI, Tailwind CSS v4 e class-variance-authority.
