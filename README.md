@@ -1,4 +1,4 @@
-# @flightroom/design-system
+# @mfe-orchestrator/design-system
 
 Design System for MFE Orchestrator. Libreria React di componenti UI estratti dal frontend di [mfe-orchestrator](https://github.com/mfe-orchestrator), basata su Radix UI, Tailwind CSS v4 e class-variance-authority.
 
@@ -15,13 +15,13 @@ Design System for MFE Orchestrator. Libreria React di componenti UI estratti dal
 Il pacchetto è pubblicato su GitHub Packages. Nel progetto consumer crea un `.npmrc`:
 
 ```
-@flightroom:registry=https://npm.pkg.github.com
+@mfe-orchestrator:registry=https://npm.pkg.github.com
 ```
 
 poi:
 
 ```sh
-pnpm add @flightroom/design-system
+pnpm add @mfe-orchestrator/design-system
 pnpm add -D tailwindcss @tailwindcss/vite tailwindcss-animate
 ```
 
@@ -32,8 +32,8 @@ Nel CSS principale dell'app:
 ```css
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300..700;1,300..700&display=swap");
 @import "tailwindcss";
-@import "@flightroom/design-system/theme.css";
-@source "../node_modules/@flightroom/design-system/dist";
+@import "@mfe-orchestrator/design-system/theme.css";
+@source "../node_modules/@mfe-orchestrator/design-system/dist";
 ```
 
 La direttiva `@source` fa sì che Tailwind generi le utility usate dai componenti della libreria. Il dark mode è class-based: aggiungi/rimuovi la classe `dark` su `<html>`.
@@ -41,7 +41,7 @@ La direttiva `@source` fa sì che Tailwind generi le utility usate dai component
 ## Uso
 
 ```tsx
-import { Button, Card, CardContent, CardHeader, CardTitle } from "@flightroom/design-system"
+import { Button, Card, CardContent, CardHeader, CardTitle } from "@mfe-orchestrator/design-system"
 
 export function Example() {
     return (
@@ -61,7 +61,7 @@ I form field richiedono un `FormProvider` di react-hook-form:
 
 ```tsx
 import { FormProvider, useForm } from "react-hook-form"
-import { TextField } from "@flightroom/design-system"
+import { TextField } from "@mfe-orchestrator/design-system"
 
 export function ExampleForm() {
     const form = useForm()
@@ -99,7 +99,7 @@ espongono `<name>-toggle-visibility`.
 La stessa logica è esportata come helper per i componenti dell'app consumer:
 
 ```tsx
-import { getTestId, type TestIdProps } from "@flightroom/design-system"
+import { getTestId, type TestIdProps } from "@mfe-orchestrator/design-system"
 
 const MyField = ({ dataTestId, ...props }: MyFieldProps & TestIdProps) => (
     <input {...props} data-testid={getTestId({ dataTestId, ...props })} />
@@ -133,11 +133,11 @@ pnpm add link:../design-system
 
 ## Release
 
-La pipeline [release.yml](.github/workflows/release.yml) pubblica su GitHub Packages ad ogni tag push (con o senza prefisso `v`):
+La pipeline [release.yml](.github/workflows/release.yml) pubblica su GitHub Packages ad ogni tag `v*`:
 
 ```sh
-git tag 1.6.0
-git push origin 1.6.0
+git tag v0.1.0
+git push origin v0.1.0
 ```
 
 ## License
