@@ -2,7 +2,7 @@ import { cva } from "class-variance-authority"
 import { cn } from "@/utils/styleUtils"
 
 const baseStyle = `
-	text-primary/75
+	text-primary-strong
 	font-semibold
 `
 

@@ -7,7 +7,7 @@ export const numberedStepMarkerVariants = cva("flex size-6 shrink-0 items-center
          * tinte fisse che in tema scuro restano chiare e rendono il numero illeggibile.
          */
         tone: {
-            primary: "bg-primary/15 text-primary",
+            primary: "bg-primary/15 text-primary-strong",
             // `text-accent` da solo non basta: in questo tema `--accent` è già una tinta
             // di sfondo chiara, il colore leggibile sopra di essa è `--accent-foreground`.
             accent: "bg-accent text-accent-foreground"
