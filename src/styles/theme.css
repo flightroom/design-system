@@ -1,5 +1,5 @@
 /*
- * MFE Orchestrator Design System — Tailwind v4 theme
+ * Flightroom Design System — Tailwind v4 theme
  *
  * Uso nel progetto consumer (dopo aver installato tailwindcss e tailwindcss-animate):
  *
@@ -115,7 +115,7 @@
 
 @layer base {
     :root {
-        /* MFE Orchestrator brand — light theme, white bg, violet accent */
+        /* Flightroom brand — light theme, white bg, violet accent */
         --background: 0 0% 100%;
         --background-gradient-from: 0 0% 100%;
         --background-gradient-to: 262 40% 99%;
@@ -176,7 +176,7 @@
     }
 
     .dark {
-        /* MFE Orchestrator brand — dark theme (dark blue-grey + violet) */
+        /* Flightroom brand — dark theme (dark blue-grey + violet) */
         --background: 220 26% 14%;
         --background-gradient-from: 220 26% 14%;
         --background-gradient-to: 220 20% 18%;
