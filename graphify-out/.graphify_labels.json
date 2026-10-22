@@ -33,5 +33,7 @@
   "31": "styleUtils.ts",
   "32": "NumberedSteps.tsx",
   "33": "selectContent.tsx",
-  "34": "accordion.tsx"
+  "34": "accordion.tsx",
+  "35": "repository",
+  "36": "graphify"
 }
