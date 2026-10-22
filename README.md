@@ -1,6 +1,6 @@
 # @flightroom/design-system
 
-Design System for MFE Orchestrator. Libreria React di componenti UI estratti dal frontend di [mfe-orchestrator](https://github.com/mfe-orchestrator), basata su Radix UI, Tailwind CSS v4 e class-variance-authority.
+Design System for Flightroom. Libreria React di componenti UI estratti dal frontend di [Flightroom](https://github.com/flightroom/flightroom), basata su Radix UI, Tailwind CSS v4 e class-variance-authority.
 
 ## Contenuto
 
