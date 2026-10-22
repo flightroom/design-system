@@ -1,7 +1,7 @@
 import clsx from "clsx"
 import { X } from "lucide-react"
 import { useState } from "react"
-import { Controller, type FieldError, type FieldValues, type Path, type RegisterOptions, useFormContext } from "react-hook-form"
+import { Controller, type FieldError, type FieldValues, get, type Path, type RegisterOptions, useFormContext } from "react-hook-form"
 import { Label } from "@/components/ui/label"
 import { getTestId, type TestIdProps } from "@/utils/testIdUtils"
 
@@ -43,7 +43,8 @@ const TextareaChipsField = <T extends FieldValues>({
     } = useFormContext<T>()
 
     const [inputValue, setInputValue] = useState("")
-    const error = errors[name] as FieldError | undefined
+    // Annidati come i valori: l'errore di "connection.port" sta in errors.connection.port, non in errors["connection.port"]
+    const error = get(errors, name) as FieldError | undefined
     const inputId = id || name
     const errorId = `${inputId}-error`
     const descriptionId = `${inputId}-description`
@@ -113,7 +114,7 @@ const TextareaChipsField = <T extends FieldValues>({
                             {chips.length > 0 && (
                                 <ul className="flex flex-wrap gap-2 mb-2 list-none p-0" aria-label={label}>
                                     {chips.map((chip, index) => (
-                                        <li key={chip} className="inline-flex items-center gap-1 px-2 py-1 bg-primary/10 text-primary rounded-md text-sm">
+                                        <li key={chip} className="inline-flex items-center gap-1 px-2 py-1 bg-primary/10 text-primary-strong rounded-md text-sm">
                                             <span>{chip}</span>
                                             <button
                                                 type="button"

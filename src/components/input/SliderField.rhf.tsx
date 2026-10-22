@@ -1,5 +1,5 @@
 import clsx from "clsx"
-import { Controller, FieldError, FieldValues, Path, RegisterOptions, useFormContext } from "react-hook-form"
+import { Controller, FieldError, FieldValues, get, Path, RegisterOptions, useFormContext } from "react-hook-form"
 import { Label } from "@/components/ui/label"
 import { Slider } from "@/components/ui/slider"
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group"
@@ -62,7 +62,8 @@ const SliderField = <T extends FieldValues>({
         formState: { errors }
     } = useFormContext<T>()
 
-    const error = errors[name] as FieldError | undefined
+    // Annidati come i valori: l'errore di "connection.port" sta in errors.connection.port, non in errors["connection.port"]
+    const error = get(errors, name) as FieldError | undefined
     const inputId = id || name
     const errorId = `${inputId}-error`
     const descriptionId = `${inputId}-description`
@@ -99,7 +100,7 @@ const SliderField = <T extends FieldValues>({
                                     htmlFor={inputId}
                                     // il valore è già annunciato dallo slider: evita il doppio annuncio
                                     aria-hidden="true"
-                                    className={clsx("text-xl font-semibold tabular-nums", error ? "text-destructive" : "text-primary")}
+                                    className={clsx("text-xl font-semibold tabular-nums", error ? "text-destructive" : "text-primary-strong")}
                                     data-testid={`${testId}-value`}
                                 >
                                     {format(value)}
