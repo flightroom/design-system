@@ -1,16 +1,16 @@
-# Graph Report - design-system  (2026-10-22)
+# Graph Report - design-system  (2026-10-28)
 
 ## Corpus Check
-- 111 files · ~20,965 words
+- 121 files · ~23,945 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 514 nodes · 1111 edges · 37 communities (26 shown, 11 thin omitted)
+- 541 nodes · 1177 edges · 44 communities (33 shown, 11 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c709de1b`
+- Built from commit: `717cd533`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -51,30 +51,37 @@
 - [[_COMMUNITY_accordion.tsx|accordion.tsx]]
 - [[_COMMUNITY_repository|repository]]
 - [[_COMMUNITY_graphify|graphify]]
+- [[_COMMUNITY_SliderField.rhf.tsx|SliderField.rhf.tsx]]
+- [[_COMMUNITY_label.tsx|label.tsx]]
+- [[_COMMUNITY_ConfirmByTypingDialog.tsx|ConfirmByTypingDialog.tsx]]
+- [[_COMMUNITY_input.tsx|input.tsx]]
+- [[_COMMUNITY_Meter.tsx|Meter.tsx]]
+- [[_COMMUNITY_accordion.tsx|accordion.tsx]]
+- [[_COMMUNITY_avatar.tsx|avatar.tsx]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `getTestId()` - 90 edges
-2. `TestIdProps` - 88 edges
-3. `cn()` - 82 edges
+2. `cn()` - 88 edges
+3. `TestIdProps` - 88 edges
 4. `compilerOptions` - 20 edges
 5. `formatter` - 13 edges
 6. `correctness` - 12 edges
 7. `Label` - 11 edges
 8. `@flightroom/design-system` - 11 edges
 9. `formatter` - 10 edges
-10. `Button` - 9 edges
+10. `Button` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `SelectField()` --calls--> `getTestId()`  [EXTRACTED]
   src/components/input/SelectField.rhf.tsx → src/utils/testIdUtils.ts
-- `ISelectControlProps` --inherits--> `TestIdProps`  [EXTRACTED]
-  src/components/ui/select/partials/selectControl/selectControl.tsx → src/utils/testIdUtils.ts
-- `TextareaProps` --inherits--> `TestIdProps`  [EXTRACTED]
-  src/components/ui/textarea.tsx → src/utils/testIdUtils.ts
-- `Build Job` --semantically_similar_to--> `Publish Job`  [INFERRED] [semantically similar]
-  .github/workflows/ci.yml → .github/workflows/release.yml
-- `Publish Job` --references--> `GitHub Packages Registry`  [EXTRACTED]
-  .github/workflows/release.yml → README.md
+- `SliderField()` --calls--> `getTestId()`  [EXTRACTED]
+  src/components/input/SliderField.rhf.tsx → src/utils/testIdUtils.ts
+- `TextField()` --calls--> `getTestId()`  [EXTRACTED]
+  src/components/input/TextField.rhf.tsx → src/utils/testIdUtils.ts
+- `TextareaChipsField()` --calls--> `getTestId()`  [EXTRACTED]
+  src/components/input/TextareaChipsField.rhf.tsx → src/utils/testIdUtils.ts
+- `TextareaField()` --calls--> `getTestId()`  [EXTRACTED]
+  src/components/input/TextareaField.rhf.tsx → src/utils/testIdUtils.ts
 
 ## Import Cycles
 - None detected.
@@ -82,23 +89,23 @@
 ## Hyperedges (group relationships)
 - **Tag-triggered release to GitHub Packages** — _github_workflows_release_release_workflow, _github_workflows_release_publish_job, readme_github_packages, _github_workflows_release_tag_driven_versioning [EXTRACTED 1.00]
 
-## Communities (37 total, 11 thin omitted)
+## Communities (44 total, 11 thin omitted)
 
 ### Community 0 - "Core UI Primitives"
-Cohesion: 0.17
-Nodes (10): Badge(), IBadgeProps, BadgeVariants, ColorSwatch(), IColorSwatchProps, colorSwatchVariants, IMeterProps, Meter() (+2 more)
+Cohesion: 0.20
+Nodes (9): Badge(), IBadgeProps, BadgeVariants, BadgeVariant, DOT_TONE, IStatusBadgeProps, IStatusDotProps, StatusDot() (+1 more)
 
 ### Community 1 - "Package Metadata"
 Cohesion: 0.15
 Nodes (12): description, engines, node, files, license, main, module, name (+4 more)
 
 ### Community 2 - "Select Component"
-Cohesion: 0.10
-Nodes (27): CalendarField(), CalendarFieldProps, SelectField(), SelectFieldProps, Spinner(), SpinnerProps, PopoverContent, PopoverTrigger (+19 more)
+Cohesion: 0.08
+Nodes (32): ColorSwatch(), IColorSwatchProps, colorSwatchVariants, CalendarField(), CalendarFieldProps, SelectField(), SelectFieldProps, Spinner() (+24 more)
 
 ### Community 3 - "Form System & RHF Fields"
-Cohesion: 0.06
-Nodes (57): ColorPicker(), ColorPickerCustomProps, DEFAULT_COLORS, SliderField(), SliderFieldProps, Switch(), SwitchCustomProps, TextareaChipsField() (+49 more)
+Cohesion: 0.17
+Nodes (10): DEFAULT_COLORS, SwitchCustomProps, Checkbox, RadioGroup, RadioGroupItem, Switch, TabsContent, TooltipContent (+2 more)
 
 ### Community 4 - "TypeScript Config"
 Cohesion: 0.05
@@ -117,16 +124,16 @@ Cohesion: 0.28
 Nodes (11): DescriptionItem(), IDescriptionItemProps, DescriptionList(), DescriptionListContext, DescriptionListOrientation, IDescriptionListContextValue, IDescriptionListProps, descriptionDetailVariants (+3 more)
 
 ### Community 8 - "Dialogs & Color Picker"
-Cohesion: 0.15
-Nodes (13): Button, spinnerSizeByButtonSize, ButtonVariants, IButtonProps, CopyButton, ICopyButtonProps, CodeBlock(), ICodeBlockProps (+5 more)
+Cohesion: 0.11
+Nodes (19): Button, spinnerSizeByButtonSize, ButtonVariants, IButtonProps, CopyButton, ICopyButtonProps, CodeBlock(), ICodeBlockProps (+11 more)
 
 ### Community 9 - "Dev Dependencies"
 Cohesion: 0.07
 Nodes (30): noArguments, noExtraBooleanCast, noUselessCatch, noUselessTypeConstraint, noConstantCondition, noConstAssign, noPrecisionLoss, noSelfAssign (+22 more)
 
 ### Community 10 - "Tabs Component"
-Cohesion: 0.08
-Nodes (23): Accordion, AccordionContent, AccordionItem, AccordionTrigger, DeleteConfirmationDialogProps, ISectionHeaderProps, SectionHeader(), NavItem (+15 more)
+Cohesion: 0.09
+Nodes (23): DeleteConfirmationDialogProps, INumberedStep, INumberedStepsProps, NumberedSteps(), numberedStepMarkerVariants, ISectionHeaderProps, SectionHeader(), NavItem (+15 more)
 
 ### Community 11 - "Button & Calendar Field"
 Cohesion: 0.08
@@ -137,8 +144,8 @@ Cohesion: 0.18
 Nodes (10): DropdownMenuCheckboxItem, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuShortcut(), DropdownMenuSubContent (+2 more)
 
 ### Community 13 - "Table Component"
-Cohesion: 0.12
-Nodes (21): EmptyState(), EmptyStateTone, IEmptyStateProps, EmptyStateRow(), IEmptyStateRowProps, emptyStateBareIconVariants, emptyStateDescriptionVariants, emptyStateIconTileSize (+13 more)
+Cohesion: 0.10
+Nodes (23): ApiStatusQuery, IApiStatusHandlerProps, EmptyState(), EmptyStateTone, IEmptyStateProps, EmptyStateRow(), IEmptyStateRowProps, emptyStateBareIconVariants (+15 more)
 
 ### Community 14 - "Card Component"
 Cohesion: 0.18
@@ -169,8 +176,8 @@ Cohesion: 0.40
 Nodes (5): exports, ./package.json, ./theme.css, import, types
 
 ### Community 32 - "NumberedSteps.tsx"
-Cohesion: 0.52
-Nodes (4): INumberedStep, INumberedStepsProps, NumberedSteps(), numberedStepMarkerVariants
+Cohesion: 0.23
+Nodes (14): ColorPicker(), ColorPickerCustomProps, Switch(), DeleteConfirmationDialog(), DialogClose, DialogContent, DialogContentProps, DialogDescription (+6 more)
 
 ### Community 33 - "selectContent.tsx"
 Cohesion: 0.50
@@ -184,6 +191,34 @@ Nodes (3): publishConfig, access, registry
 Cohesion: 0.67
 Nodes (3): repository, type, url
 
+### Community 37 - "SliderField.rhf.tsx"
+Cohesion: 0.21
+Nodes (9): SliderField(), SliderFieldProps, Slider, SliderProps, ToggleGroup, ToggleGroupContext, ToggleGroupItem, Toggle (+1 more)
+
+### Community 38 - "label.tsx"
+Cohesion: 0.19
+Nodes (8): TextareaChipsField(), TextareaChipsFieldProps, TextareaField(), TextFieldProps, Label, labelVariants, Textarea, TextareaProps
+
+### Community 39 - "ConfirmByTypingDialog.tsx"
+Cohesion: 0.33
+Nodes (6): Alert, AlertDescription, AlertTitle, alertVariants, ConfirmByTypingDialog(), IConfirmByTypingDialogProps
+
+### Community 40 - "input.tsx"
+Cohesion: 0.36
+Nodes (5): TextField(), TextFieldProps, Input, InputProps, inputVariants
+
+### Community 41 - "Meter.tsx"
+Cohesion: 0.57
+Nodes (4): IMeterProps, Meter(), meterFillVariants, meterTrackVariants
+
+### Community 42 - "accordion.tsx"
+Cohesion: 0.40
+Nodes (4): Accordion, AccordionContent, AccordionItem, AccordionTrigger
+
+### Community 43 - "avatar.tsx"
+Cohesion: 0.50
+Nodes (3): Avatar, AvatarFallback, AvatarImage
+
 ## Knowledge Gaps
 - **233 isolated node(s):** `$schema`, `enabled`, `clientKind`, `useIgnoreFile`, `ignoreUnknown` (+228 more)
   These have ≤1 connection - possible missing edges or undocumented components.
@@ -192,17 +227,17 @@ Nodes (3): repository, type, url
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `TestIdProps` connect `Tabs Component` to `Core UI Primitives`, `NumberedSteps.tsx`, `Select Component`, `Form System & RHF Fields`, `Badge & Sidebar Navigation`, `Dialogs & Color Picker`, `Dropdown Menu`, `Table Component`, `Card Component`, `SliderField.rhf.tsx`, `IconTile.tsx`?**
-  _High betweenness centrality (0.089) - this node is a cross-community bridge._
-- **Why does `getTestId()` connect `Form System & RHF Fields` to `Core UI Primitives`, `NumberedSteps.tsx`, `Select Component`, `Badge & Sidebar Navigation`, `Dialogs & Color Picker`, `Tabs Component`, `Dropdown Menu`, `Table Component`, `Card Component`, `SliderField.rhf.tsx`, `IconTile.tsx`?**
+- **Why does `TestIdProps` connect `Tabs Component` to `Core UI Primitives`, `NumberedSteps.tsx`, `Select Component`, `Form System & RHF Fields`, `SliderField.rhf.tsx`, `label.tsx`, `ConfirmByTypingDialog.tsx`, `Dialogs & Color Picker`, `Meter.tsx`, `accordion.tsx`, `avatar.tsx`, `Badge & Sidebar Navigation`, `Dropdown Menu`, `Card Component`, `Table Component`, `input.tsx`, `SliderField.rhf.tsx`, `IconTile.tsx`?**
+  _High betweenness centrality (0.087) - this node is a cross-community bridge._
+- **Why does `cn()` connect `Select Component` to `Core UI Primitives`, `NumberedSteps.tsx`, `Form System & RHF Fields`, `SliderField.rhf.tsx`, `label.tsx`, `ConfirmByTypingDialog.tsx`, `Dialogs & Color Picker`, `Meter.tsx`, `accordion.tsx`, `avatar.tsx`, `Badge & Sidebar Navigation`, `Dropdown Menu`, `Card Component`, `Table Component`, `input.tsx`, `SliderField.rhf.tsx`, `Tabs Component`, `IconTile.tsx`?**
   _High betweenness centrality (0.078) - this node is a cross-community bridge._
-- **Why does `cn()` connect `Select Component` to `Core UI Primitives`, `NumberedSteps.tsx`, `Form System & RHF Fields`, `Badge & Sidebar Navigation`, `Dialogs & Color Picker`, `Tabs Component`, `Dropdown Menu`, `Table Component`, `Card Component`, `SliderField.rhf.tsx`, `IconTile.tsx`?**
-  _High betweenness centrality (0.062) - this node is a cross-community bridge._
+- **Why does `getTestId()` connect `NumberedSteps.tsx` to `Core UI Primitives`, `Select Component`, `Form System & RHF Fields`, `SliderField.rhf.tsx`, `label.tsx`, `ConfirmByTypingDialog.tsx`, `Dialogs & Color Picker`, `Meter.tsx`, `input.tsx`, `accordion.tsx`, `avatar.tsx`, `Badge & Sidebar Navigation`, `Card Component`, `Dropdown Menu`, `Table Component`, `SliderField.rhf.tsx`, `Tabs Component`, `IconTile.tsx`?**
+  _High betweenness centrality (0.075) - this node is a cross-community bridge._
 - **What connects `$schema`, `enabled`, `clientKind` to the rest of the system?**
   _234 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Select Component` be split into smaller, more focused modules?**
-  _Cohesion score 0.1014799154334038 - nodes in this community are weakly interconnected._
-- **Should `Form System & RHF Fields` be split into smaller, more focused modules?**
-  _Cohesion score 0.05574229691876751 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0803633822501747 - nodes in this community are weakly interconnected._
 - **Should `TypeScript Config` be split into smaller, more focused modules?**
   _Cohesion score 0.0524390243902439 - nodes in this community are weakly interconnected._
+- **Should `Runtime Dependencies` be split into smaller, more focused modules?**
+  _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._

@@ -23,7 +23,11 @@ type TextFieldProps<T extends FieldValues> = React.TextareaHTMLAttributes<HTMLTe
         hideValueLabel?: string
         /** Testo annunciato dagli screen reader per il marcatore di campo obbligatorio */
         requiredLabel?: string
+        /** Con `maxLength` il contatore dei caratteri: di default "120 / 10.000" */
+        counterLabel?: (count: number, max: number) => string
     }
+
+const defaultCounterLabel = (count: number, max: number) => `${count.toLocaleString()} / ${max.toLocaleString()}`
 
 const TextareaField = <T extends FieldValues>({
     name,
@@ -40,6 +44,7 @@ const TextareaField = <T extends FieldValues>({
     showValueLabel = "Show value",
     hideValueLabel = "Hide value",
     requiredLabel = "required",
+    counterLabel = defaultCounterLabel,
     ...props
 }: TextFieldProps<T>) => {
     const {
@@ -53,10 +58,12 @@ const TextareaField = <T extends FieldValues>({
     const inputId = id || name
     const errorId = `${inputId}-error`
     const descriptionId = `${inputId}-description`
+    const counterId = `${inputId}-counter`
     const testId = getTestId({ dataTestId, id, name })
     const isMasked = secret && !isValueVisible
     const isRequired = props.required || !!rules?.required
-    const describedBy = [description ? descriptionId : null, error ? errorId : null].filter(Boolean).join(" ") || undefined
+    const { maxLength } = props
+    const describedBy = [description ? descriptionId : null, maxLength !== undefined ? counterId : null, error ? errorId : null].filter(Boolean).join(" ") || undefined
 
     return (
         <Controller
@@ -113,6 +120,15 @@ const TextareaField = <T extends FieldValues>({
                             </button>
                         )}
                     </div>
+                    {maxLength !== undefined && (
+                        <p
+                            id={counterId}
+                            data-testid={`${testId}-counter`}
+                            className={clsx("self-end text-xs tabular-nums", String(field.value ?? "").length >= maxLength ? "text-destructive" : "text-foreground-secondary")}
+                        >
+                            {counterLabel(String(field.value ?? "").length, maxLength)}
+                        </p>
+                    )}
                     {error && (
                         <p id={errorId} role="alert" className="text-sm font-medium text-destructive">
                             {error.message}
