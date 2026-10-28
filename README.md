@@ -6,10 +6,11 @@ Design System for Flightroom. Libreria React di componenti UI estratti dal front
 
 ## Contenuto
 
-- **Atoms**: `Button`, `Badge`
+- **Atoms**: `Button`, `Badge`, `StatusBadge` (badge di stato con pallino, `live` lo fa pulsare), `StatusDot`
 - **Primitives**: `Accordion`, `Alert`, `Avatar`, `Card`, `Checkbox`, `Dialog`, `DropdownMenu`, `Form`, `Input`, `Label`, `Popover`, `RadioGroup`, `Select`, `Slider`, `Switch`, `Table`, `Tabs`, `Textarea`, `Toggle`, `ToggleGroup`, `Tooltip`, `Spinner`, `DeleteConfirmationDialog`
+- **Pattern**: `ApiStatusHandler` (caricamento, errore o vuoto dallo stato delle query), `EntityPickerList` (lista con ricerca per scegliere un'entità), `PageLayout` (titolo, descrizione e toolbar di una pagina)
 - **Navigation**: `Sidebar`, `NavItem` (agnostici rispetto al router: prop `renderLink` per integrare react-router)
-- **Form fields** (react-hook-form): `TextField`, `TextareaField`, `TextareaChipsField`, `SelectField`, `SwitchField`, `SliderField`, `CalendarField`, `ColorPicker`
+- **Form fields** (react-hook-form): `TextField`, `TextareaField` (con `maxLength` mostra il contatore dei caratteri), `TextareaChipsField`, `SelectField`, `SwitchField`, `SliderField`, `CalendarField`, `ColorPicker`
 - **Theme**: `theme.css` con i design token (light/dark) per Tailwind v4, vedi [Palette e token](#palette-e-token)
 
 ## Installazione
