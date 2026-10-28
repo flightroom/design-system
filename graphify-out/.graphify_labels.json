@@ -35,5 +35,12 @@
   "33": "selectContent.tsx",
   "34": "accordion.tsx",
   "35": "repository",
-  "36": "graphify"
+  "36": "graphify",
+  "37": "SliderField.rhf.tsx",
+  "38": "label.tsx",
+  "39": "ConfirmByTypingDialog.tsx",
+  "40": "input.tsx",
+  "41": "Meter.tsx",
+  "42": "accordion.tsx",
+  "43": "avatar.tsx"
 }
