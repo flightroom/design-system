@@ -41,6 +41,8 @@ export * from "./components/ui/entityPickerList"
 export * from "./components/ui/form"
 // Add tile
 export * from "./components/ui/addTile"
+// Log viewer
+export * from "./components/ui/logViewer"
 // Numbered steps
 export * from "./components/ui/numberedSteps"
 // Page layout
