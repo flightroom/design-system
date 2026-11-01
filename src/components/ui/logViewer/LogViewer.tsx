@@ -1,5 +1,5 @@
 import * as React from "react"
-import { useEffect, useId, useRef, useState } from "react"
+import { useEffect, useId, useMemo, useRef, useState } from "react"
 import Spinner from "@/components/Spinner"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Input } from "@/components/ui/input/input"
@@ -26,8 +26,11 @@ export interface ILogViewerProps {
     tailLabel?: string
     /** Testo di un'opzione del numero di righe, es. `count => \`${count} lines\`` */
     tailOptionLabel?: (count: number) => string
-    /** Chiamata col filtro già ripulito dagli spazi, quando la digitazione si ferma */
-    onFilterChange: (filter: string) => void
+    /**
+     * Chiamata col filtro già ripulito dagli spazi, quando la digitazione si ferma: l'app lo applica (es. il server).
+     * Senza, il filtro si applica qui, alle righe ricevute, senza distinguere maiuscole e minuscole.
+     */
+    onFilterChange?: (filter: string) => void
     filterLabel?: string
     filterPlaceholder?: string
     follow: boolean
@@ -40,6 +43,8 @@ export interface ILogViewerProps {
     outputLabel?: string
     /** Testo dell'area quando non c'è nessuna riga */
     emptyLabel?: string
+    /** Testo dell'area quando il filtro applicato qui non lascia nessuna delle righe ricevute */
+    noMatchLabel?: string
     /** Testo annunciato dagli screen reader durante il primo caricamento */
     loadingLabel?: string
     /** Mostrato con role="alert" al posto delle righe */
@@ -81,6 +86,7 @@ export const LogViewer: React.FC<ILogViewerProps> = ({
     formatJsonHint,
     outputLabel = "Logs",
     emptyLabel = "No lines",
+    noMatchLabel = "No line matches the filter",
     loadingLabel = "Loading…",
     error,
     pending = false,
@@ -91,6 +97,7 @@ export const LogViewer: React.FC<ILogViewerProps> = ({
 }) => {
     const id = useId()
     const [filterDraft, setFilterDraft] = useState("")
+    const [filter, setFilter] = useState("")
     const [formatJson, setFormatJson] = useState(true)
     const outputRef = useRef<HTMLDivElement>(null)
     // In un ref: una callback nuova a ogni render dell'app non deve far ripartire l'attesa del filtro
@@ -99,14 +106,25 @@ export const LogViewer: React.FC<ILogViewerProps> = ({
     const testId = (suffix: string) => dataTestId && `${dataTestId}-${suffix}`
 
     useEffect(() => {
-        const timeout = setTimeout(() => onFilterChangeRef.current(filterDraft.trim()), FILTER_DEBOUNCE_MS)
+        const timeout = setTimeout(() => {
+            setFilter(filterDraft.trim())
+            onFilterChangeRef.current?.(filterDraft.trim())
+        }, FILTER_DEBOUNCE_MS)
         return () => clearTimeout(timeout)
     }, [filterDraft])
 
+    const filtersHere = !onFilterChange
+    // Lo stesso array finché righe e filtro non cambiano: lo scorrimento sull'ultima riga parte solo allora
+    const shownLines = useMemo(() => {
+        if (!filtersHere || !filter) return lines
+        const needle = filter.toLowerCase()
+        return lines.filter(line => line.content.toLowerCase().includes(needle))
+    }, [lines, filter, filtersHere])
+
     // L'ultima riga in vista, come un terminale che segue un log
     useEffect(() => {
-        if (lines.length > 0 && outputRef.current) outputRef.current.scrollTop = outputRef.current.scrollHeight
-    }, [lines])
+        if (shownLines.length > 0 && outputRef.current) outputRef.current.scrollTop = outputRef.current.scrollHeight
+    }, [shownLines])
 
     return (
         <div className={cn("flex flex-col gap-4", className)}>
@@ -174,7 +192,7 @@ export const LogViewer: React.FC<ILogViewerProps> = ({
                         aria-label={outputLabel}
                         data-testid={testId("output")}
                     >
-                        {lines.length === 0 ? emptyLabel : lines.map((line, index) => <LogLine key={index} line={line} formatJson={formatJson} />)}
+                        {shownLines.length === 0 ? (lines.length === 0 ? emptyLabel : noMatchLabel) : shownLines.map((line, index) => <LogLine key={index} line={line} formatJson={formatJson} />)}
                     </div>
                 ))
             )}

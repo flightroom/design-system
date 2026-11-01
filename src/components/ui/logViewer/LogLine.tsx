@@ -1,4 +1,5 @@
 import { format, isValid } from "date-fns"
+import { memo, useMemo } from "react"
 import { cn } from "@/utils/styleUtils"
 
 /** Una riga di log: il testo così come l'ha scritto il processo e, se nota, l'ora in cui l'ha scritto */
@@ -57,9 +58,11 @@ const Timestamp: React.FC<{ value?: string }> = ({ value }) =>
 /**
  * Una riga dei log. Con `formatJson` una riga JSON si legge come livello, messaggio e altri campi,
  * e si apre sull'oggetto intero, indentato; il testo della riga resta quello scritto dal processo, per il download.
+ *
+ * Memorizzata, e il suo JSON letto una volta: scrivere nel filtro ridisegna il visualizzatore, non migliaia di righe.
  */
-export const LogLine: React.FC<ILogLineProps> = ({ line, formatJson }) => {
-    const entry = formatJson ? parseJsonLine(line.content) : undefined
+export const LogLine = memo<ILogLineProps>(({ line, formatJson }) => {
+    const entry = useMemo(() => (formatJson ? parseJsonLine(line.content) : undefined), [line.content, formatJson])
     if (!entry) {
         return (
             <span className="block">
@@ -88,6 +91,7 @@ export const LogLine: React.FC<ILogLineProps> = ({ line, formatJson }) => {
             <span className="block border-l-2 border-divider pl-3 text-foreground-secondary">{JSON.stringify(entry, null, 2)}</span>
         </details>
     )
-}
+})
+LogLine.displayName = "LogLine"
 
 export default LogLine
