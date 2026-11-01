@@ -285,8 +285,8 @@
     "semantic_hash": ""
   },
   "src/index.ts": {
-    "mtime": 1793565615.5769725,
-    "ast_hash": "c2c20d5df17922bdea281a8994da8f8b",
+    "mtime": 1793570939.2171865,
+    "ast_hash": "8411a73fb990d7fdf2385712be8972bd",
     "semantic_hash": ""
   },
   "src/utils/styleUtils.ts": {
@@ -647,6 +647,21 @@
   "src/components/ui/entityCard/index.ts": {
     "mtime": 1793565605.4377694,
     "ast_hash": "ff8a6137ffbd683ec18856e8fb5c560d",
+    "semantic_hash": ""
+  },
+  "src/components/ui/cloneRepositoryPopover/CloneRepositoryPopover.tsx": {
+    "mtime": 1793570937.3939757,
+    "ast_hash": "e006cfd813832dd2976c3678ef051d27",
+    "semantic_hash": ""
+  },
+  "src/components/ui/cloneRepositoryPopover/index.ts": {
+    "mtime": 1793570938.2702231,
+    "ast_hash": "62baa49b8afda5e319624bcdd5ebd58a",
+    "semantic_hash": ""
+  },
+  "src/utils/repositoryCloneUrls.ts": {
+    "mtime": 1793570936.5134797,
+    "ast_hash": "3ae80b14d60e13c7ea030805e2cf45db",
     "semantic_hash": ""
   }
 }
