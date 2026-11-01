@@ -23,6 +23,8 @@ export * from "./components/ui/apiStatusHandler"
 export * from "./components/ui/avatar"
 export * from "./components/ui/card"
 export * from "./components/ui/checkbox"
+// Clone repository popover
+export * from "./components/ui/cloneRepositoryPopover"
 // Code block
 export * from "./components/ui/codeBlock"
 // Confirm by typing
@@ -85,6 +87,7 @@ export * from "./components/ui/textarea"
 export * from "./components/ui/toggle"
 export * from "./components/ui/toggle-group"
 export * from "./components/ui/tooltip"
+export { buildGitCloneCommand, buildIntelliJCloneUrl, buildVsCodeCloneUrl } from "./utils/repositoryCloneUrls"
 export { cn } from "./utils/styleUtils"
 export type { TestIdProps, TestIdSource } from "./utils/testIdUtils"
 export { getTestId } from "./utils/testIdUtils"
