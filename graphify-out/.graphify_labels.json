@@ -15,8 +15,6 @@
   "13": "Table Component",
   "14": "Card Component",
   "15": "Vite Build Config",
-  "16": "correctness",
-  "17": "SliderField.rhf.tsx",
   "18": "CLAUDE.md",
   "19": "Atoms (Button, Badge)",
   "20": "class-variance-authority",
@@ -29,18 +27,8 @@
   "27": "Tailwind CSS v4",
   "28": "theme.css Design Tokens",
   "29": "IconTile.tsx",
-  "30": "cn",
-  "31": "styleUtils.ts",
   "32": "NumberedSteps.tsx",
-  "33": "selectContent.tsx",
-  "34": "accordion.tsx",
-  "35": "repository",
   "36": "graphify",
   "37": "SliderField.rhf.tsx",
-  "38": "label.tsx",
-  "39": "ConfirmByTypingDialog.tsx",
-  "40": "input.tsx",
-  "41": "Meter.tsx",
-  "42": "accordion.tsx",
-  "43": "avatar.tsx"
+  "41": "Meter.tsx"
 }

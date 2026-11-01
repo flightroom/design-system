@@ -80,8 +80,8 @@
     "semantic_hash": ""
   },
   "src/components/input/TextareaField.rhf.tsx": {
-    "mtime": 1793173391.1268451,
-    "ast_hash": "13c71e853615fd4b6bd001ef21b37991",
+    "mtime": 1793173637.717941,
+    "ast_hash": "8e2b49b7637303860cc26dda4d2adb81",
     "semantic_hash": ""
   },
   "src/components/ui/DeleteConfirmationDialog.tsx": {
@@ -285,8 +285,8 @@
     "semantic_hash": ""
   },
   "src/index.ts": {
-    "mtime": 1793173391.1269617,
-    "ast_hash": "d4413cb6c21f527dcbce2fa8b2965854",
+    "mtime": 1793545726.6846437,
+    "ast_hash": "4e81767d48d5fe8f3e960369328a97c3",
     "semantic_hash": ""
   },
   "src/utils/styleUtils.ts": {
@@ -315,8 +315,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1793173542.6038473,
-    "ast_hash": "120100bdd8fbe7f89eb02f7aad124778",
+    "mtime": 1793545727.5480897,
+    "ast_hash": "992429e4efede7b595d27cfafebcf20a",
     "semantic_hash": ""
   },
   ".claude/settings.json": {
@@ -617,6 +617,26 @@
   "docs/assets/logo.png": {
     "mtime": 1792664035.6915152,
     "ast_hash": "b892f7aa58d95bd6c2ca8321751ea5e4",
+    "semantic_hash": ""
+  },
+  "src/components/ui/logViewer/LogLine.tsx": {
+    "mtime": 1793545690.042763,
+    "ast_hash": "73b4945d645256dc6563e3da496032cc",
+    "semantic_hash": ""
+  },
+  "src/components/ui/logViewer/LogViewer.tsx": {
+    "mtime": 1793545744.264793,
+    "ast_hash": "c2c55c3c61c8371d9397cc0443e30135",
+    "semantic_hash": ""
+  },
+  "src/components/ui/logViewer/LogViewerActions.tsx": {
+    "mtime": 1793545690.8902907,
+    "ast_hash": "9c6477efb4f9c6c10f93241bd07828a5",
+    "semantic_hash": ""
+  },
+  "src/components/ui/logViewer/index.ts": {
+    "mtime": 1793545719.9545798,
+    "ast_hash": "ff910492939856c2215181a9ab193ba9",
     "semantic_hash": ""
   }
 }
