@@ -620,13 +620,13 @@
     "semantic_hash": ""
   },
   "src/components/ui/logViewer/LogLine.tsx": {
-    "mtime": 1793545690.042763,
-    "ast_hash": "73b4945d645256dc6563e3da496032cc",
+    "mtime": 1793547846.1738784,
+    "ast_hash": "bcb3dab2ae3a1f9898a8c539eadc426f",
     "semantic_hash": ""
   },
   "src/components/ui/logViewer/LogViewer.tsx": {
-    "mtime": 1793545744.264793,
-    "ast_hash": "c2c55c3c61c8371d9397cc0443e30135",
+    "mtime": 1793547846.7281933,
+    "ast_hash": "d57013240ffd6f23e26f5faefd2dc6be",
     "semantic_hash": ""
   },
   "src/components/ui/logViewer/LogViewerActions.tsx": {

@@ -857,7 +857,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "package_types",
-      "community": 31,
+      "community": 1,
       "norm_label": "types"
     },
     {
@@ -867,7 +867,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "package_exports",
-      "community": 31,
+      "community": 1,
       "norm_label": "exports"
     },
     {
@@ -877,7 +877,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "package_import",
-      "community": 31,
+      "community": 1,
       "norm_label": "import"
     },
     {
@@ -887,7 +887,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "package_exports_theme_css",
-      "community": 31,
+      "community": 1,
       "norm_label": "./theme.css"
     },
     {
@@ -897,7 +897,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "package_exports_package_json",
-      "community": 31,
+      "community": 1,
       "norm_label": "./package.json"
     },
     {
@@ -917,7 +917,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "package_publishconfig",
-      "community": 34,
+      "community": 1,
       "norm_label": "publishconfig"
     },
     {
@@ -927,7 +927,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "package_publishconfig_registry",
-      "community": 34,
+      "community": 1,
       "norm_label": "registry"
     },
     {
@@ -937,7 +937,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "package_publishconfig_access",
-      "community": 34,
+      "community": 1,
       "norm_label": "access"
     },
     {
@@ -947,7 +947,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "package_repository",
-      "community": 35,
+      "community": 1,
       "norm_label": "repository"
     },
     {
@@ -957,7 +957,7 @@
       "source_location": "L33",
       "_origin": "ast",
       "id": "package_repository_type",
-      "community": 35,
+      "community": 1,
       "norm_label": "type"
     },
     {
@@ -967,7 +967,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "package_repository_url",
-      "community": 35,
+      "community": 1,
       "norm_label": "url"
     },
     {
@@ -977,7 +977,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "package_scripts",
-      "community": 30,
+      "community": 1,
       "norm_label": "scripts"
     },
     {
@@ -987,7 +987,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "package_scripts_build",
-      "community": 30,
+      "community": 1,
       "norm_label": "build"
     },
     {
@@ -997,7 +997,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "package_scripts_dev",
-      "community": 30,
+      "community": 1,
       "norm_label": "dev"
     },
     {
@@ -1007,7 +1007,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "package_scripts_typecheck",
-      "community": 30,
+      "community": 1,
       "norm_label": "typecheck"
     },
     {
@@ -1017,7 +1017,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "package_scripts_lint",
-      "community": 30,
+      "community": 1,
       "norm_label": "lint"
     },
     {
@@ -1027,7 +1027,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "package_scripts_format",
-      "community": 30,
+      "community": 1,
       "norm_label": "format"
     },
     {
@@ -1277,7 +1277,7 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "package_peerdependencies",
-      "community": 33,
+      "community": 1,
       "norm_label": "peerdependencies"
     },
     {
@@ -1287,7 +1287,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "package_peerdependencies_react",
-      "community": 33,
+      "community": 1,
       "norm_label": "react"
     },
     {
@@ -1297,7 +1297,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "package_peerdependencies_react_dom",
-      "community": 33,
+      "community": 1,
       "norm_label": "react-dom"
     },
     {
@@ -1307,7 +1307,7 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "package_peerdependencies_react_hook_form",
-      "community": 33,
+      "community": 1,
       "norm_label": "react-hook-form"
     },
     {
@@ -1317,7 +1317,7 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "package_devdependencies",
-      "community": 16,
+      "community": 1,
       "norm_label": "devdependencies"
     },
     {
@@ -1327,7 +1327,7 @@
       "source_location": "L74",
       "_origin": "ast",
       "id": "package_devdependencies_biomejs_biome",
-      "community": 16,
+      "community": 1,
       "norm_label": "@biomejs/biome"
     },
     {
@@ -1337,7 +1337,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "package_devdependencies_types_node",
-      "community": 16,
+      "community": 1,
       "norm_label": "@types/node"
     },
     {
@@ -1347,7 +1347,7 @@
       "source_location": "L76",
       "_origin": "ast",
       "id": "package_devdependencies_types_react",
-      "community": 16,
+      "community": 1,
       "norm_label": "@types/react"
     },
     {
@@ -1357,7 +1357,7 @@
       "source_location": "L77",
       "_origin": "ast",
       "id": "package_devdependencies_types_react_dom",
-      "community": 16,
+      "community": 1,
       "norm_label": "@types/react-dom"
     },
     {
@@ -1367,7 +1367,7 @@
       "source_location": "L78",
       "_origin": "ast",
       "id": "package_devdependencies_typescript_typescript6",
-      "community": 16,
+      "community": 1,
       "norm_label": "@typescript/typescript6"
     },
     {
@@ -1377,7 +1377,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "package_devdependencies_vitejs_plugin_react_swc",
-      "community": 16,
+      "community": 1,
       "norm_label": "@vitejs/plugin-react-swc"
     },
     {
@@ -1387,7 +1387,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "package_devdependencies_react",
-      "community": 16,
+      "community": 1,
       "norm_label": "react"
     },
     {
@@ -1397,7 +1397,7 @@
       "source_location": "L81",
       "_origin": "ast",
       "id": "package_devdependencies_react_dom",
-      "community": 16,
+      "community": 1,
       "norm_label": "react-dom"
     },
     {
@@ -1407,7 +1407,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "package_devdependencies_react_hook_form",
-      "community": 16,
+      "community": 1,
       "norm_label": "react-hook-form"
     },
     {
@@ -1417,7 +1417,7 @@
       "source_location": "L83",
       "_origin": "ast",
       "id": "package_devdependencies_typescript",
-      "community": 16,
+      "community": 1,
       "norm_label": "typescript"
     },
     {
@@ -1427,7 +1427,7 @@
       "source_location": "L84",
       "_origin": "ast",
       "id": "package_devdependencies_vite",
-      "community": 16,
+      "community": 1,
       "norm_label": "vite"
     },
     {
@@ -1437,7 +1437,7 @@
       "source_location": "L85",
       "_origin": "ast",
       "id": "package_devdependencies_vite_plugin_dts",
-      "community": 16,
+      "community": 1,
       "norm_label": "vite-plugin-dts"
     },
     {
@@ -1617,7 +1617,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_atoms_colorswatch_colorswatch",
-      "community": 2,
+      "community": 7,
       "norm_label": "colorswatch.tsx"
     },
     {
@@ -1627,7 +1627,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_components_atoms_colorswatch_colorswatch_icolorswatchprops",
-      "community": 2,
+      "community": 7,
       "norm_label": "icolorswatchprops"
     },
     {
@@ -1637,7 +1637,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_components_atoms_colorswatch_colorswatch_colorswatch",
-      "community": 2,
+      "community": 7,
       "norm_label": "colorswatch()"
     },
     {
@@ -1647,7 +1647,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_atoms_colorswatch_colorswatchvariants",
-      "community": 2,
+      "community": 7,
       "norm_label": "colorswatchvariants.tsx"
     },
     {
@@ -1657,7 +1657,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "src_components_atoms_colorswatch_colorswatchvariants_colorswatchvariants",
-      "community": 2,
+      "community": 7,
       "norm_label": "colorswatchvariants"
     },
     {
@@ -1667,7 +1667,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_atoms_colorswatch_index",
-      "community": 2,
+      "community": 7,
       "norm_label": "index.ts"
     },
     {
@@ -1807,7 +1807,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_atoms_index",
-      "community": 0,
+      "community": 32,
       "norm_label": "index.ts"
     },
     {
@@ -2037,7 +2037,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_components_input_colorpicker_rhf_default_colors",
-      "community": 3,
+      "community": 32,
       "norm_label": "default_colors"
     },
     {
@@ -2067,7 +2067,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_input_selectfield_rhf",
-      "community": 2,
+      "community": 32,
       "norm_label": "selectfield.rhf.tsx"
     },
     {
@@ -2077,7 +2077,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_components_input_selectfield_rhf_selectfieldprops",
-      "community": 2,
+      "community": 32,
       "norm_label": "selectfieldprops"
     },
     {
@@ -2087,7 +2087,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_components_input_selectfield_rhf_selectfield",
-      "community": 2,
+      "community": 32,
       "norm_label": "selectfield()"
     },
     {
@@ -2127,7 +2127,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_input_switch_rhf",
-      "community": 3,
+      "community": 32,
       "norm_label": "switch.rhf.tsx"
     },
     {
@@ -2137,7 +2137,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_components_input_switch_rhf_switchcustomprops",
-      "community": 3,
+      "community": 32,
       "norm_label": "switchcustomprops"
     },
     {
@@ -2157,7 +2157,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_input_textfield_rhf",
-      "community": 40,
+      "community": 32,
       "norm_label": "textfield.rhf.tsx"
     },
     {
@@ -2167,7 +2167,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_components_input_textfield_rhf_textfieldprops",
-      "community": 40,
+      "community": 32,
       "norm_label": "textfieldprops"
     },
     {
@@ -2177,7 +2177,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "src_components_input_textfield_rhf_textfield",
-      "community": 40,
+      "community": 32,
       "norm_label": "textfield()"
     },
     {
@@ -2187,7 +2187,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_input_textareachipsfield_rhf",
-      "community": 38,
+      "community": 32,
       "norm_label": "textareachipsfield.rhf.tsx"
     },
     {
@@ -2197,7 +2197,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_components_input_textareachipsfield_rhf_textareachipsfieldprops",
-      "community": 38,
+      "community": 32,
       "norm_label": "textareachipsfieldprops"
     },
     {
@@ -2207,7 +2207,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "src_components_input_textareachipsfield_rhf_textareachipsfield",
-      "community": 38,
+      "community": 32,
       "norm_label": "textareachipsfield()"
     },
     {
@@ -2217,7 +2217,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_input_textareafield_rhf",
-      "community": 38,
+      "community": 32,
       "norm_label": "textareafield.rhf.tsx"
     },
     {
@@ -2227,7 +2227,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_components_input_textareafield_rhf_textfieldprops",
-      "community": 38,
+      "community": 32,
       "norm_label": "textfieldprops"
     },
     {
@@ -2237,7 +2237,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "src_components_input_textareafield_rhf_defaultcounterlabel",
-      "community": 38,
+      "community": 32,
       "norm_label": "defaultcounterlabel()"
     },
     {
@@ -2247,7 +2247,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "src_components_input_textareafield_rhf_textareafield",
-      "community": 38,
+      "community": 32,
       "norm_label": "textareafield()"
     },
     {
@@ -2267,7 +2267,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_components_ui_deleteconfirmationdialog_deleteconfirmationdialogprops",
-      "community": 10,
+      "community": 32,
       "norm_label": "deleteconfirmationdialogprops"
     },
     {
@@ -2407,7 +2407,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_accordion",
-      "community": 42,
+      "community": 2,
       "norm_label": "accordion.tsx"
     },
     {
@@ -2417,7 +2417,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_components_ui_accordion_accordion",
-      "community": 42,
+      "community": 2,
       "norm_label": "accordion"
     },
     {
@@ -2427,7 +2427,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_components_ui_accordion_accordionitem",
-      "community": 42,
+      "community": 2,
       "norm_label": "accordionitem"
     },
     {
@@ -2437,7 +2437,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_components_ui_accordion_accordiontrigger",
-      "community": 42,
+      "community": 2,
       "norm_label": "accordiontrigger"
     },
     {
@@ -2447,7 +2447,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "src_components_ui_accordion_accordioncontent",
-      "community": 42,
+      "community": 2,
       "norm_label": "accordioncontent"
     },
     {
@@ -2517,7 +2517,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_alert",
-      "community": 39,
+      "community": 13,
       "norm_label": "alert.tsx"
     },
     {
@@ -2527,7 +2527,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_components_ui_alert_alertvariants",
-      "community": 39,
+      "community": 13,
       "norm_label": "alertvariants"
     },
     {
@@ -2537,7 +2537,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "src_components_ui_alert_alert",
-      "community": 39,
+      "community": 13,
       "norm_label": "alert"
     },
     {
@@ -2547,7 +2547,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "src_components_ui_alert_alerttitle",
-      "community": 39,
+      "community": 32,
       "norm_label": "alerttitle"
     },
     {
@@ -2557,7 +2557,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "src_components_ui_alert_alertdescription",
-      "community": 39,
+      "community": 13,
       "norm_label": "alertdescription"
     },
     {
@@ -2617,7 +2617,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_avatar",
-      "community": 43,
+      "community": 2,
       "norm_label": "avatar.tsx"
     },
     {
@@ -2627,7 +2627,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_components_ui_avatar_avatar",
-      "community": 43,
+      "community": 2,
       "norm_label": "avatar"
     },
     {
@@ -2637,7 +2637,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "src_components_ui_avatar_avatarimage",
-      "community": 43,
+      "community": 2,
       "norm_label": "avatarimage"
     },
     {
@@ -2647,7 +2647,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "src_components_ui_avatar_avatarfallback",
-      "community": 43,
+      "community": 2,
       "norm_label": "avatarfallback"
     },
     {
@@ -2817,7 +2817,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_confirmbytypingdialog_confirmbytypingdialog",
-      "community": 39,
+      "community": 32,
       "norm_label": "confirmbytypingdialog.tsx"
     },
     {
@@ -2827,7 +2827,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_components_ui_confirmbytypingdialog_confirmbytypingdialog_iconfirmbytypingdialogprops",
-      "community": 39,
+      "community": 32,
       "norm_label": "iconfirmbytypingdialogprops"
     },
     {
@@ -2837,7 +2837,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "src_components_ui_confirmbytypingdialog_confirmbytypingdialog_confirmbytypingdialog",
-      "community": 39,
+      "community": 32,
       "norm_label": "confirmbytypingdialog()"
     },
     {
@@ -2847,7 +2847,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_confirmbytypingdialog_index",
-      "community": 39,
+      "community": 32,
       "norm_label": "index.ts"
     },
     {
@@ -3217,7 +3217,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_dropdown_menu",
-      "community": 12,
+      "community": 2,
       "norm_label": "dropdown-menu.tsx"
     },
     {
@@ -3227,7 +3227,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_components_ui_dropdown_menu_dropdownmenutrigger",
-      "community": 12,
+      "community": 2,
       "norm_label": "dropdownmenutrigger"
     },
     {
@@ -3237,7 +3237,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_components_ui_dropdown_menu_dropdownmenusubtrigger",
-      "community": 12,
+      "community": 2,
       "norm_label": "dropdownmenusubtrigger"
     },
     {
@@ -3247,7 +3247,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "src_components_ui_dropdown_menu_dropdownmenusubcontent",
-      "community": 12,
+      "community": 2,
       "norm_label": "dropdownmenusubcontent"
     },
     {
@@ -3257,7 +3257,7 @@
       "source_location": "L52",
       "_origin": "ast",
       "id": "src_components_ui_dropdown_menu_dropdownmenucontent",
-      "community": 12,
+      "community": 2,
       "norm_label": "dropdownmenucontent"
     },
     {
@@ -3267,7 +3267,7 @@
       "source_location": "L73",
       "_origin": "ast",
       "id": "src_components_ui_dropdown_menu_dropdownmenuitem",
-      "community": 12,
+      "community": 2,
       "norm_label": "dropdownmenuitem"
     },
     {
@@ -3277,7 +3277,7 @@
       "source_location": "L93",
       "_origin": "ast",
       "id": "src_components_ui_dropdown_menu_dropdownmenucheckboxitem",
-      "community": 12,
+      "community": 2,
       "norm_label": "dropdownmenucheckboxitem"
     },
     {
@@ -3287,7 +3287,7 @@
       "source_location": "L117",
       "_origin": "ast",
       "id": "src_components_ui_dropdown_menu_dropdownmenuradioitem",
-      "community": 12,
+      "community": 2,
       "norm_label": "dropdownmenuradioitem"
     },
     {
@@ -3297,7 +3297,7 @@
       "source_location": "L139",
       "_origin": "ast",
       "id": "src_components_ui_dropdown_menu_dropdownmenulabel",
-      "community": 12,
+      "community": 2,
       "norm_label": "dropdownmenulabel"
     },
     {
@@ -3307,7 +3307,7 @@
       "source_location": "L150",
       "_origin": "ast",
       "id": "src_components_ui_dropdown_menu_dropdownmenuseparator",
-      "community": 12,
+      "community": 2,
       "norm_label": "dropdownmenuseparator"
     },
     {
@@ -3317,7 +3317,7 @@
       "source_location": "L157",
       "_origin": "ast",
       "id": "src_components_ui_dropdown_menu_dropdownmenushortcut",
-      "community": 12,
+      "community": 2,
       "norm_label": "dropdownmenushortcut()"
     },
     {
@@ -3527,7 +3527,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_form",
-      "community": 17,
+      "community": 32,
       "norm_label": "form.tsx"
     },
     {
@@ -3537,7 +3537,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_components_ui_form_formfieldcontextvalue",
-      "community": 17,
+      "community": 32,
       "norm_label": "formfieldcontextvalue"
     },
     {
@@ -3547,7 +3547,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_components_ui_form_formfieldcontext",
-      "community": 17,
+      "community": 32,
       "norm_label": "formfieldcontext"
     },
     {
@@ -3557,7 +3557,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_components_ui_form_formfield",
-      "community": 17,
+      "community": 32,
       "norm_label": "formfield()"
     },
     {
@@ -3567,7 +3567,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "src_components_ui_form_useformfield",
-      "community": 17,
+      "community": 32,
       "norm_label": "useformfield()"
     },
     {
@@ -3577,7 +3577,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "src_components_ui_form_formitemcontextvalue",
-      "community": 17,
+      "community": 32,
       "norm_label": "formitemcontextvalue"
     },
     {
@@ -3587,7 +3587,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "src_components_ui_form_formitemcontext",
-      "community": 17,
+      "community": 32,
       "norm_label": "formitemcontext"
     },
     {
@@ -3597,7 +3597,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "src_components_ui_form_formitem",
-      "community": 17,
+      "community": 32,
       "norm_label": "formitem"
     },
     {
@@ -3607,7 +3607,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "src_components_ui_form_formlabel",
-      "community": 17,
+      "community": 32,
       "norm_label": "formlabel"
     },
     {
@@ -3617,7 +3617,7 @@
       "source_location": "L83",
       "_origin": "ast",
       "id": "src_components_ui_form_formcontrol",
-      "community": 17,
+      "community": 32,
       "norm_label": "formcontrol"
     },
     {
@@ -3627,7 +3627,7 @@
       "source_location": "L99",
       "_origin": "ast",
       "id": "src_components_ui_form_formdescription",
-      "community": 17,
+      "community": 32,
       "norm_label": "formdescription"
     },
     {
@@ -3637,7 +3637,7 @@
       "source_location": "L114",
       "_origin": "ast",
       "id": "src_components_ui_form_formmessage",
-      "community": 17,
+      "community": 32,
       "norm_label": "formmessage"
     },
     {
@@ -3647,7 +3647,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_input_input",
-      "community": 40,
+      "community": 32,
       "norm_label": "input.tsx"
     },
     {
@@ -3657,7 +3657,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_components_ui_input_input_inputprops",
-      "community": 40,
+      "community": 32,
       "norm_label": "inputprops"
     },
     {
@@ -3667,7 +3667,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_components_ui_input_input_input",
-      "community": 40,
+      "community": 32,
       "norm_label": "input"
     },
     {
@@ -3677,7 +3677,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_input_inputvariants",
-      "community": 40,
+      "community": 32,
       "norm_label": "inputvariants.tsx"
     },
     {
@@ -3687,7 +3687,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "src_components_ui_input_inputvariants_inputvariants",
-      "community": 40,
+      "community": 32,
       "norm_label": "inputvariants"
     },
     {
@@ -3697,7 +3697,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_label",
-      "community": 38,
+      "community": 32,
       "norm_label": "label.tsx"
     },
     {
@@ -3707,7 +3707,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_components_ui_label_labelvariants",
-      "community": 38,
+      "community": 32,
       "norm_label": "labelvariants"
     },
     {
@@ -3717,8 +3717,208 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "src_components_ui_label_label",
-      "community": 38,
+      "community": 32,
       "norm_label": "label"
+    },
+    {
+      "label": "LogLine.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logline",
+      "community": 3,
+      "norm_label": "logline.tsx"
+    },
+    {
+      "label": "LogViewerLine",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logline_logviewerline",
+      "community": 3,
+      "norm_label": "logviewerline"
+    },
+    {
+      "label": "ILogLineProps",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logline_iloglineprops",
+      "community": 3,
+      "norm_label": "iloglineprops"
+    },
+    {
+      "label": "NUMERIC_LEVELS",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logline_numeric_levels",
+      "community": 3,
+      "norm_label": "numeric_levels"
+    },
+    {
+      "label": "SUMMARY_FIELDS",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logline_summary_fields",
+      "community": 3,
+      "norm_label": "summary_fields"
+    },
+    {
+      "label": "JsonObject",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logline_jsonobject",
+      "community": 3,
+      "norm_label": "jsonobject"
+    },
+    {
+      "label": "parseJsonLine()",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logline_parsejsonline",
+      "community": 3,
+      "norm_label": "parsejsonline()"
+    },
+    {
+      "label": "levelOf()",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logline_levelof",
+      "community": 3,
+      "norm_label": "levelof()"
+    },
+    {
+      "label": "levelClass()",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logline_levelclass",
+      "community": 3,
+      "norm_label": "levelclass()"
+    },
+    {
+      "label": "fieldText()",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logline_fieldtext",
+      "community": 3,
+      "norm_label": "fieldtext()"
+    },
+    {
+      "label": "Timestamp()",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logline_timestamp",
+      "community": 3,
+      "norm_label": "timestamp()"
+    },
+    {
+      "label": "LogLine()",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logline_logline",
+      "community": 3,
+      "norm_label": "logline()"
+    },
+    {
+      "label": "LogViewer.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logviewer",
+      "community": 3,
+      "norm_label": "logviewer.tsx"
+    },
+    {
+      "label": "ILogViewerProps",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logviewer_ilogviewerprops",
+      "community": 3,
+      "norm_label": "ilogviewerprops"
+    },
+    {
+      "label": "LogViewer()",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logviewer_logviewer",
+      "community": 3,
+      "norm_label": "logviewer()"
+    },
+    {
+      "label": "LogViewerActions.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logvieweractions",
+      "community": 3,
+      "norm_label": "logvieweractions.tsx"
+    },
+    {
+      "label": "ILogViewerActionsProps",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logvieweractions_ilogvieweractionsprops",
+      "community": 3,
+      "norm_label": "ilogvieweractionsprops"
+    },
+    {
+      "label": "lineText()",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logvieweractions_linetext",
+      "community": 3,
+      "norm_label": "linetext()"
+    },
+    {
+      "label": "LogViewerActions()",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_logvieweractions_logvieweractions",
+      "community": 3,
+      "norm_label": "logvieweractions()"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "src/components/ui/logViewer/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_components_ui_logviewer_index",
+      "community": 3,
+      "norm_label": "index.ts"
     },
     {
       "label": "NumberedSteps.tsx",
@@ -3727,7 +3927,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_numberedsteps_numberedsteps",
-      "community": 10,
+      "community": 2,
       "norm_label": "numberedsteps.tsx"
     },
     {
@@ -3737,7 +3937,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_components_ui_numberedsteps_numberedsteps_inumberedstep",
-      "community": 10,
+      "community": 2,
       "norm_label": "inumberedstep"
     },
     {
@@ -3747,7 +3947,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_components_ui_numberedsteps_numberedsteps_inumberedstepsprops",
-      "community": 10,
+      "community": 2,
       "norm_label": "inumberedstepsprops"
     },
     {
@@ -3757,7 +3957,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "src_components_ui_numberedsteps_numberedsteps_numberedsteps",
-      "community": 10,
+      "community": 2,
       "norm_label": "numberedsteps()"
     },
     {
@@ -3767,7 +3967,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_numberedsteps_index",
-      "community": 10,
+      "community": 2,
       "norm_label": "index.ts"
     },
     {
@@ -3777,7 +3977,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_numberedsteps_numberedstepsvariants",
-      "community": 10,
+      "community": 2,
       "norm_label": "numberedstepsvariants.tsx"
     },
     {
@@ -3787,7 +3987,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "src_components_ui_numberedsteps_numberedstepsvariants_numberedstepmarkervariants",
-      "community": 10,
+      "community": 2,
       "norm_label": "numberedstepmarkervariants"
     },
     {
@@ -3867,7 +4067,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_radio_group",
-      "community": 3,
+      "community": 2,
       "norm_label": "radio-group.tsx"
     },
     {
@@ -3877,7 +4077,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_components_ui_radio_group_radiogroup",
-      "community": 3,
+      "community": 2,
       "norm_label": "radiogroup"
     },
     {
@@ -3887,7 +4087,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_components_ui_radio_group_radiogroupitem",
-      "community": 3,
+      "community": 2,
       "norm_label": "radiogroupitem"
     },
     {
@@ -3937,7 +4137,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_sectionheader_sectionheader",
-      "community": 10,
+      "community": 7,
       "norm_label": "sectionheader.tsx"
     },
     {
@@ -3947,7 +4147,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "src_components_ui_sectionheader_sectionheader_isectionheaderprops",
-      "community": 10,
+      "community": 7,
       "norm_label": "isectionheaderprops"
     },
     {
@@ -3957,7 +4157,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "src_components_ui_sectionheader_sectionheader_sectionheader",
-      "community": 10,
+      "community": 7,
       "norm_label": "sectionheader()"
     },
     {
@@ -3967,7 +4167,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_sectionheader_index",
-      "community": 10,
+      "community": 7,
       "norm_label": "index.ts"
     },
     {
@@ -3987,7 +4187,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_components_ui_select_partials_selectcontent_selectcontent_selectcontent",
-      "community": 2,
+      "community": 3,
       "norm_label": "selectcontent"
     },
     {
@@ -4017,7 +4217,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_select_partials_selectcontrol_selectcontrol",
-      "community": 2,
+      "community": 32,
       "norm_label": "selectcontrol.tsx"
     },
     {
@@ -4027,7 +4227,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_components_ui_select_partials_selectcontrol_selectcontrol_selectcontrolcontextvalue",
-      "community": 2,
+      "community": 32,
       "norm_label": "selectcontrolcontextvalue"
     },
     {
@@ -4037,7 +4237,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "src_components_ui_select_partials_selectcontrol_selectcontrol_selectcontrolcontext",
-      "community": 2,
+      "community": 32,
       "norm_label": "selectcontrolcontext"
     },
     {
@@ -4047,7 +4247,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_components_ui_select_partials_selectcontrol_selectcontrol_iselectcontrolprops",
-      "community": 2,
+      "community": 32,
       "norm_label": "iselectcontrolprops"
     },
     {
@@ -4057,7 +4257,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "src_components_ui_select_partials_selectcontrol_selectcontrol_selectcontrol",
-      "community": 2,
+      "community": 32,
       "norm_label": "selectcontrol()"
     },
     {
@@ -4217,7 +4417,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_select_partials_selecttrigger_selecttrigger",
-      "community": 2,
+      "community": 32,
       "norm_label": "selecttrigger.tsx"
     },
     {
@@ -4227,7 +4427,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_components_ui_select_partials_selecttrigger_selecttrigger_selecttrigger",
-      "community": 2,
+      "community": 32,
       "norm_label": "selecttrigger"
     },
     {
@@ -4397,7 +4597,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_switch",
-      "community": 3,
+      "community": 32,
       "norm_label": "switch.tsx"
     },
     {
@@ -4407,7 +4607,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_components_ui_switch_switch",
-      "community": 3,
+      "community": 32,
       "norm_label": "switch"
     },
     {
@@ -4537,7 +4737,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_tabs_partials_tabscontent_tabscontent",
-      "community": 3,
+      "community": 2,
       "norm_label": "tabscontent.tsx"
     },
     {
@@ -4547,7 +4747,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_components_ui_tabs_partials_tabscontent_tabscontent_tabscontent",
-      "community": 3,
+      "community": 2,
       "norm_label": "tabscontent"
     },
     {
@@ -4557,7 +4757,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_tabs_partials_tabslist_tabslist",
-      "community": 10,
+      "community": 12,
       "norm_label": "tabslist.tsx"
     },
     {
@@ -4567,7 +4767,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_components_ui_tabs_partials_tabslist_tabslist_tabslist",
-      "community": 10,
+      "community": 12,
       "norm_label": "tabslist"
     },
     {
@@ -4577,7 +4777,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_tabs_partials_tabslist_tabslistvariants",
-      "community": 10,
+      "community": 12,
       "norm_label": "tabslistvariants.tsx"
     },
     {
@@ -4587,7 +4787,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_components_ui_tabs_partials_tabslist_tabslistvariants_tabslistvariants",
-      "community": 10,
+      "community": 12,
       "norm_label": "tabslistvariants"
     },
     {
@@ -4597,7 +4797,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_tabs_partials_tabstrigger_tabstrigger",
-      "community": 10,
+      "community": 12,
       "norm_label": "tabstrigger.tsx"
     },
     {
@@ -4607,7 +4807,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_components_ui_tabs_partials_tabstrigger_tabstrigger_tabstrigger",
-      "community": 10,
+      "community": 12,
       "norm_label": "tabstrigger"
     },
     {
@@ -4617,7 +4817,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_tabs_partials_tabstrigger_tabstriggervariants",
-      "community": 10,
+      "community": 12,
       "norm_label": "tabstriggervariants.tsx"
     },
     {
@@ -4627,7 +4827,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_components_ui_tabs_partials_tabstrigger_tabstriggervariants_tabstriggervariants",
-      "community": 10,
+      "community": 12,
       "norm_label": "tabstriggervariants"
     },
     {
@@ -4637,7 +4837,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_tabs_tabs",
-      "community": 10,
+      "community": 12,
       "norm_label": "tabs.tsx"
     },
     {
@@ -4647,7 +4847,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_components_ui_tabs_tabs_tabsprops",
-      "community": 10,
+      "community": 12,
       "norm_label": "tabsprops"
     },
     {
@@ -4657,7 +4857,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_components_ui_tabs_tabs_tabscontext",
-      "community": 10,
+      "community": 12,
       "norm_label": "tabscontext"
     },
     {
@@ -4667,7 +4867,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_components_ui_tabs_tabs_tabs",
-      "community": 10,
+      "community": 12,
       "norm_label": "tabs"
     },
     {
@@ -4677,7 +4877,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_textarea",
-      "community": 38,
+      "community": 32,
       "norm_label": "textarea.tsx"
     },
     {
@@ -4687,7 +4887,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "src_components_ui_textarea_textareaprops",
-      "community": 38,
+      "community": 32,
       "norm_label": "textareaprops"
     },
     {
@@ -4697,7 +4897,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_components_ui_textarea_textarea",
-      "community": 38,
+      "community": 32,
       "norm_label": "textarea"
     },
     {
@@ -4777,7 +4977,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_components_ui_tooltip",
-      "community": 3,
+      "community": 2,
       "norm_label": "tooltip.tsx"
     },
     {
@@ -4787,7 +4987,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_components_ui_tooltip_tooltiptrigger",
-      "community": 3,
+      "community": 2,
       "norm_label": "tooltiptrigger"
     },
     {
@@ -4797,7 +4997,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_components_ui_tooltip_tooltipcontent",
-      "community": 3,
+      "community": 2,
       "norm_label": "tooltipcontent"
     },
     {
@@ -4807,7 +5007,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_index",
-      "community": 3,
+      "community": 32,
       "norm_label": "index.ts"
     },
     {
@@ -4837,7 +5037,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "src_utils_testidutils",
-      "community": 3,
+      "community": 2,
       "norm_label": "testidutils.ts"
     },
     {
@@ -4847,7 +5047,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "src_utils_testidutils_testidprops",
-      "community": 10,
+      "community": 7,
       "norm_label": "testidprops"
     },
     {
@@ -4857,7 +5057,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_utils_testidutils_testidsource",
-      "community": 3,
+      "community": 2,
       "norm_label": "testidsource"
     },
     {
@@ -6494,6 +6694,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "references",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logvieweractions_logvieweractions",
+      "target": "package_repository_url"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
@@ -7021,6 +7232,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_spinner",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "re_exports",
       "context": "export",
       "confidence": "EXTRACTED",
@@ -7540,6 +7762,17 @@
       "source_location": "L3",
       "weight": 1.0,
       "source": "src_components_ui_entitypickerlist_entitypickerlist",
+      "target": "src_components_atoms_button_button_button",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logvieweractions",
       "target": "src_components_atoms_button_button_button",
       "confidence_score": 1.0
     },
@@ -8429,6 +8662,17 @@
       "source_location": "L4",
       "weight": 1.0,
       "source": "src_components_input_colorpicker_rhf",
+      "target": "src_components_atoms_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logvieweractions",
       "target": "src_components_atoms_index",
       "confidence_score": 1.0
     },
@@ -10303,7 +10547,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L62",
+      "source_location": "L64",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_sidebar_sidebar",
@@ -10433,7 +10677,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L59",
+      "source_location": "L61",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_sidebar_partials_navitem_navitem",
@@ -10487,7 +10731,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L60",
+      "source_location": "L62",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_sidebar_partials_navitem_navitemvariants",
@@ -11470,6 +11714,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_checkbox",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "re_exports",
       "context": "export",
       "confidence": "EXTRACTED",
@@ -11478,6 +11733,17 @@
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_checkbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_checkbox_checkbox",
       "confidence_score": 1.0
     },
     {
@@ -14089,6 +14355,17 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_input_input",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/components/ui/searchInput/SearchInput.tsx",
       "source_location": "L6",
       "weight": 1.0,
@@ -14101,7 +14378,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L54",
+      "source_location": "L56",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_input_input",
@@ -14116,6 +14393,17 @@
       "weight": 1.0,
       "source": "src_components_ui_input_input_inputprops",
       "target": "src_utils_testidutils_testidprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_input_input_input",
       "confidence_score": 1.0
     },
     {
@@ -14166,7 +14454,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L55",
+      "source_location": "L57",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_input_inputvariants",
@@ -14251,6 +14539,17 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/components/ui/select/partials/selectControl/selectControl.tsx",
       "source_location": "L2",
       "weight": 1.0,
@@ -14263,10 +14562,21 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L56",
+      "source_location": "L58",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_label_label",
       "confidence_score": 1.0
     },
     {
@@ -14278,6 +14588,617 @@
       "weight": 1.0,
       "source": "src_components_ui_select_partials_selectcontrol_selectcontrol",
       "target": "src_components_ui_label_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_index",
+      "target": "src_components_ui_logviewer_logline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline",
+      "target": "src_components_ui_logviewer_logline_fieldtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline",
+      "target": "src_components_ui_logviewer_logline_iloglineprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline",
+      "target": "src_components_ui_logviewer_logline_jsonobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline",
+      "target": "src_components_ui_logviewer_logline_levelclass",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline",
+      "target": "src_components_ui_logviewer_logline_levelof",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline",
+      "target": "src_components_ui_logviewer_logline_logline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline",
+      "target": "src_components_ui_logviewer_logline_logviewerline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline",
+      "target": "src_components_ui_logviewer_logline_numeric_levels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline",
+      "target": "src_components_ui_logviewer_logline_parsejsonline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline",
+      "target": "src_components_ui_logviewer_logline_summary_fields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline",
+      "target": "src_components_ui_logviewer_logline_timestamp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline",
+      "target": "src_utils_styleutils",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline",
+      "target": "src_utils_styleutils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_logviewer_logline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logvieweractions",
+      "target": "src_components_ui_logviewer_logline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "re_exports",
+      "context": "re-export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_index",
+      "target": "src_components_ui_logviewer_logline_logviewerline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_logviewer_logline_logviewerline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer_ilogviewerprops",
+      "target": "src_components_ui_logviewer_logline_logviewerline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logvieweractions",
+      "target": "src_components_ui_logviewer_logline_logviewerline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logvieweractions_ilogvieweractionsprops",
+      "target": "src_components_ui_logviewer_logline_logviewerline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "re_exports",
+      "context": "re-export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_index",
+      "target": "src_components_ui_logviewer_logline_iloglineprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline_logline",
+      "target": "src_components_ui_logviewer_logline_summary_fields"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline_logline",
+      "target": "src_components_ui_logviewer_logline_parsejsonline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline_logline",
+      "target": "src_components_ui_logviewer_logline_levelof",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline_logline",
+      "target": "src_components_ui_logviewer_logline_levelclass",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline_logline",
+      "target": "src_components_ui_logviewer_logline_fieldtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "re_exports",
+      "context": "re-export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/index.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_index",
+      "target": "src_components_ui_logviewer_logline_logline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/ui/logViewer/LogLine.tsx",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logline_logline",
+      "target": "src_utils_styleutils_cn"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_logviewer_logline_logline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/index.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_index",
+      "target": "src_components_ui_logviewer_logviewer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_logviewer_logviewer_ilogviewerprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_logviewer_logviewer_logviewer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_select_partials_selectcontent_selectcontent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_select_partials_selectcontent_selectcontent_selectcontent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_select_partials_selectitem_selectitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_select_partials_selectitem_selectitem_selectitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_select_partials_selecttrigger_selecttrigger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_select_partials_selecttrigger_selecttrigger_selecttrigger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_select_select",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_components_ui_select_select_select",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_utils_styleutils",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer",
+      "target": "src_utils_styleutils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "re_exports",
+      "context": "re-export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/index.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_index",
+      "target": "src_components_ui_logviewer_logviewer_ilogviewerprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "re_exports",
+      "context": "re-export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/index.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_index",
+      "target": "src_components_ui_logviewer_logviewer_logviewer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/ui/logViewer/LogViewer.tsx",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logviewer_logviewer",
+      "target": "src_utils_styleutils_cn"
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/index.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_index",
+      "target": "src_components_ui_logviewer_logvieweractions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logvieweractions",
+      "target": "src_components_ui_logviewer_logvieweractions_ilogvieweractionsprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logvieweractions",
+      "target": "src_components_ui_logviewer_logvieweractions_linetext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logvieweractions",
+      "target": "src_components_ui_logviewer_logvieweractions_logvieweractions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logvieweractions",
+      "target": "src_utils_styleutils",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logvieweractions",
+      "target": "src_utils_styleutils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "re_exports",
+      "context": "re-export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/index.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_index",
+      "target": "src_components_ui_logviewer_logvieweractions_ilogvieweractionsprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logvieweractions_logvieweractions",
+      "target": "src_components_ui_logviewer_logvieweractions_linetext",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "re_exports",
+      "context": "re-export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/logViewer/index.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_index",
+      "target": "src_components_ui_logviewer_logvieweractions_logvieweractions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/ui/logViewer/LogViewerActions.tsx",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "src_components_ui_logviewer_logvieweractions_logvieweractions",
+      "target": "src_utils_styleutils_cn"
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/index.ts",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "src_index",
+      "target": "src_components_ui_logviewer_index",
       "confidence_score": 1.0
     },
     {
@@ -14480,7 +15401,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L45",
+      "source_location": "L47",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_numberedsteps_index",
@@ -14576,7 +15497,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L47",
+      "source_location": "L49",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_pagelayout_index",
@@ -14662,7 +15583,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L57",
+      "source_location": "L59",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_popover",
@@ -14748,7 +15669,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L58",
+      "source_location": "L60",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_radio_group",
@@ -14867,7 +15788,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L49",
+      "source_location": "L51",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_searchinput_index",
@@ -15008,7 +15929,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L51",
+      "source_location": "L53",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_sectionheader_index",
@@ -15161,7 +16082,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L63",
+      "source_location": "L65",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_select_partials_selectcontent_selectcontent",
@@ -15310,7 +16231,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L64",
+      "source_location": "L66",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_select_partials_selectcontrol_selectcontrol",
@@ -15474,7 +16395,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L65",
+      "source_location": "L67",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_select_partials_selectitem_selectitem",
@@ -15626,7 +16547,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L66",
+      "source_location": "L68",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_select_partials_selectlabel_selectlabel",
@@ -15744,7 +16665,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L67",
+      "source_location": "L69",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_select_partials_selectscrollbuttons",
@@ -15842,7 +16763,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L68",
+      "source_location": "L70",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_select_partials_selectseparator",
@@ -16016,7 +16937,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L69",
+      "source_location": "L71",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_select_partials_selecttrigger_selecttrigger",
@@ -16057,7 +16978,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L71",
+      "source_location": "L73",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_select_select",
@@ -16143,7 +17064,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L72",
+      "source_location": "L74",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_slider",
@@ -16372,7 +17293,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L53",
+      "source_location": "L55",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_stattile_index",
@@ -16488,7 +17409,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L73",
+      "source_location": "L75",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_switch",
@@ -16664,7 +17585,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L74",
+      "source_location": "L76",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_table",
@@ -16740,7 +17661,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L75",
+      "source_location": "L77",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_tabs_partials_tabscontent_tabscontent",
@@ -16860,7 +17781,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L76",
+      "source_location": "L78",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_tabs_partials_tabslist_tabslist",
@@ -16990,7 +17911,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L77",
+      "source_location": "L79",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_tabs_partials_tabstrigger_tabstrigger",
@@ -17096,7 +18017,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L79",
+      "source_location": "L81",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_tabs_tabs",
@@ -17193,7 +18114,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L80",
+      "source_location": "L82",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_textarea",
@@ -17322,7 +18243,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L82",
+      "source_location": "L84",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_toggle_group",
@@ -17408,7 +18329,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L81",
+      "source_location": "L83",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_toggle",
@@ -17494,7 +18415,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L83",
+      "source_location": "L85",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_components_ui_tooltip",
@@ -17505,7 +18426,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L84",
+      "source_location": "L86",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_utils_styleutils",
@@ -17516,7 +18437,7 @@
       "context": "re-export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L84",
+      "source_location": "L86",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_utils_styleutils_cn",
@@ -17527,7 +18448,7 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L85",
+      "source_location": "L87",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_utils_testidutils",
@@ -17538,7 +18459,7 @@
       "context": "re-export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L86",
+      "source_location": "L88",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_utils_testidutils_gettestid",
@@ -17549,7 +18470,7 @@
       "context": "re-export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L85",
+      "source_location": "L87",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_utils_testidutils_testidprops",
@@ -17560,7 +18481,7 @@
       "context": "re-export",
       "confidence": "EXTRACTED",
       "source_file": "src/index.ts",
-      "source_location": "L85",
+      "source_location": "L87",
       "weight": 1.0,
       "source": "src_index",
       "target": "src_utils_testidutils_testidsource",
@@ -18033,5 +18954,5 @@
       "source_file": ".github/workflows/release.yml"
     }
   ],
-  "built_at_commit": "717cd533d9f52fb7f66bce218d6e763c6c28cb80"
+  "built_at_commit": "8a759e7eae126c146e64d1ceb7eff8a430e24807"
 }
